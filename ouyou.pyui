@@ -30,13 +30,13 @@
         "frame" : "{{217, 17}, {119, 52}}",
         "class" : "Label",
         "attributes" : {
-          "font_size" : 18,
+          "name" : "label1",
           "frame" : "{{100, 231}, {150, 32}}",
           "uuid" : "08B2F9F6-B006-4CA6-B214-6810C11C7333",
           "class" : "Label",
           "alignment" : "center",
           "text" : "偏差値",
-          "name" : "label1",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -48,13 +48,13 @@
         "frame" : "{{217, 77}, {119, 86}}",
         "class" : "Label",
         "attributes" : {
-          "font_size" : 18,
+          "name" : "label2",
           "frame" : "{{100, 231}, {150, 32}}",
           "uuid" : "7FB583C6-CB3A-4052-9E48-DB78E196D9AC",
           "class" : "Label",
           "alignment" : "center",
           "text" : "",
-          "name" : "label2",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -100,13 +100,13 @@
         "frame" : "{{217, 180}, {119, 35}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "label3",
+          "font_size" : 18,
           "frame" : "{{100, 263}, {150, 32}}",
           "uuid" : "E36D5E23-C133-4001-BBCB-E89646593F4B",
           "class" : "Label",
           "alignment" : "center",
           "text" : "平均点",
-          "font_size" : 18,
+          "name" : "label3",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -118,16 +118,16 @@
         "frame" : "{{217, 316}, {119, 32}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "label5",
+          "font_size" : 18,
           "frame" : "{{100, 263}, {150, 32}}",
           "uuid" : "011AEC28-60FD-4651-82AE-99ED9358F1B3",
           "class" : "Label",
           "alignment" : "center",
-          "text" : "祥英",
-          "font_size" : 18,
+          "text" : "本人",
+          "name" : "label5",
           "font_name" : "<System>"
         },
-        "selected" : false
+        "selected" : true
       },
       {
         "nodes" : [
@@ -136,14 +136,14 @@
         "frame" : "{{217, 242}, {119, 59}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield1",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "08E8E9F6-AAD6-477F-AA00-872279143B6D",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield1",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -155,17 +155,17 @@
         "frame" : "{{217, 364}, {119, 54}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield2",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "63240FE8-7F41-4FC2-8DB6-E060B81AEA1A",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield2",
           "font_name" : "<System>"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
@@ -191,14 +191,14 @@
         "frame" : "{{128, 53}, {87, 47}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield3",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "FBE01307-BCEA-4946-BD08-5BF3FFD01CC2",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield3",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -210,14 +210,14 @@
         "frame" : "{{128, 101}, {87, 43}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield4",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "C2DD0E6F-EA49-4E23-879A-CECCB0976105",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield4",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -229,14 +229,14 @@
         "frame" : "{{128, 145}, {87, 41}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield5",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "0FADA9FA-5309-4635-8F3B-D5678084BD64",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield5",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -248,14 +248,14 @@
         "frame" : "{{128, 187}, {87, 41}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield6",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "7A78179F-0AFE-403A-9526-A5F734B27365",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield6",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -267,14 +267,14 @@
         "frame" : "{{128, 230}, {87, 45}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield7",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "C59CCE8F-B657-4BBA-A9E6-DB2009D1E71E",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield7",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -286,14 +286,14 @@
         "frame" : "{{128, 276}, {87, 40}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield8",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "37692771-F850-4ECC-9DFE-408E1C363E34",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield8",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -305,14 +305,14 @@
         "frame" : "{{128, 364}, {87, 41}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield10",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "DFBDF88F-8759-4373-9083-CE25477459A6",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield10",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -324,14 +324,14 @@
         "frame" : "{{128, 316}, {87, 46}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "textfield9",
+          "font_size" : 17,
           "frame" : "{{75, 263}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "A42E30C9-EEDC-41C6-B89D-4F07EAF2323C",
           "alignment" : "center",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "textfield9",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -340,11 +340,11 @@
     "frame" : "{{0, 0}, {350, 558}}",
     "class" : "View",
     "attributes" : {
-      "name" : "偏差値",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "enabled" : true,
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "偏差値",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false
