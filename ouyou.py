@@ -28,7 +28,7 @@ class Basic:
 		self.textfield10 = v['textfield10']
 		self.i = hs.HensatiSansyutu()
 		self.i.dosuu = [int(self.textfield3.text),int(self.textfield4.text),int(self.textfield5.text),int(self.textfield6.text),int(self.textfield7.text),int(self.textfield8.text),int(self.textfield9.text),int(self.textfield10.text)]
-		self.kekka = self.i.Kekka(tensuu_mean=float(self.textfield1.text),honnin_tensuu=int(self.textfield2.text))
+		self.kekka = self.i.Kekka(tensuu_mean=float(self.textfield1.text),syouei_tensuu=int(self.textfield2.text))
 		self.label.text = self.kekka
 
 b = Basic()
@@ -63,7 +63,7 @@ def btn_kamoku(sender):
 		
 	i = hs.KamokubetuHS()
 	i.dosuu = [int(textfield3.text),int(textfield4.text),int(textfield5.text),int(textfield6.text),int(textfield7.text)]
-	kekka = i.Kekka(tensuu_mean=float(textfield1.text), honnin_tensuu=int(textfield2.text))
+	kekka = i.Kekka(tensuu_mean=float(textfield1.text), syouei_tensuu=int(textfield2.text))
 	label.text = kekka
 v = ui.load_view()
 v.present('sheet')
